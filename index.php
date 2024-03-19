@@ -17,7 +17,7 @@ $pp = new PaymentProcessor($adpStripe);
 $pp->purchaseProduct(44);
 echo '<pre>';
     var_dump($paypal);
-    var_dump($pp);
+    //var_dump($pp);
     // var_dump($log);
 echo'</pre>';
 ?>
